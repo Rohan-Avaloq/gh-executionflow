@@ -4,8 +4,8 @@ jobs:
   build:
     strategy:
        matrix:
-       node-version: [12,14,16]
-       operting-system: [ubuntu-latest, window-latest]
+        node-version: [12,14,16]
+        operting-system: [ubuntu-latest, window-latest]
     runs-on: ${{ matrix.operting-system }}
     steps:
       - name: Get Code
