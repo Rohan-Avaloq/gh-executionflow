@@ -10,7 +10,7 @@ jobs:
         include:
           - node-version: 18
             operting-system: ubuntu-latest
-        ecclude: 
+        exclude: 
           - node-version: 12
               operting-system: window-latest
     runs-on: ${{ matrix.operting-system }}
